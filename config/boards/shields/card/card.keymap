@@ -71,48 +71,6 @@
             bindings = <&mkp RCLK>;
 	    layers = <SYS>;
         };
-
-		b {
-            timeout-ms = <10>;
-	    	key-positions = <2 3>;
-            bindings = <&kp B>;
-	    	layers = <0>;
-		};
-
-		g {
-            timeout-ms = <10>;
-	    	key-positions = <10 11>;
-            bindings = <&kp G>;
-	    	layers = <0>;
-		};
-
-		v {
-            timeout-ms = <10>;
-	    	key-positions = <18 19>;
-            bindings = <&kp V>;
-	    	layers = <0>;
-		};
-
-		j {
-            timeout-ms = <10>;
-	    	key-positions = <4 5>;
-            bindings = <&kp J>;
-	    	layers = <0>;
-		};
-
-		m {
-            timeout-ms = <10>;
-	    	key-positions = <12 13>;
-            bindings = <&kp M>;
-	    	layers = <0>;
-		};
-
-		k {
-            timeout-ms = <10>;
-	    	key-positions = <20 21>;
-            bindings = <&kp K>;
-	    	layers = <0>;
-		};
     };
 
     behaviors {
@@ -168,7 +126,7 @@
 		&hm LGUI Q 	&hm LALT W 		&hm LCTL F 		&hm LSHIFT P			&hm LSHIFT L 	&hm RCTL U    	&hm RALT Y	&hm RGUI SQT  
 		&hl NM1 A	&hl SM2 R		&hl SM1 S		&hl SYS T 	 			&hl SYS N   	&hl SM1 E     	&hl SM2 I 	&hl NM1 O
 		&kp Z	 	&kp X 			&kp C 			&kp D				 	&kp H			&kp COMMA		&kp DOT		&kp SLASH
-													&kp SPC					&kp RET
+													&kp SPC					&alpha2macro
 		>;
 		};
        		game {
@@ -181,10 +139,10 @@
 		};
        		alpha2 {
 		bindings = <
-		&trans 	 	&kp V 			&kp W			&kp M	 	 			&kp F    		&kp SQT			&kp Z 		&trans
-		&kp Q	 	&kp J 			&kp P			&kp K 					&kp B 			&kp DOT			&kp X		&kp Y 
-		&trans	 	&trans 			&trans 			&sk LSHIFT 				&sl AL2U		&trans			&trans		&trans
-													&sk LSHIFT	 			&sl AL2U
+		&trans 	 	&trans 			&trans			&kp B	 	 			&kp J    		&trans			&trans 		&trans
+		&trans	 	&trans			&trans			&kp G 					&kp M 			&trans			&trans		&trans 
+		&trans	 	&trans 			&trans 			&kp V	 				&kp K			&trans			&trans		&trans
+													&sk LSHIFT	 			&kp ENTER
 		>;
 		};
 		
