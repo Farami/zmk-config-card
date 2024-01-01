@@ -154,8 +154,8 @@
        		sym1 {
 		bindings = <
 		&trans 		&kp RA(N5)  	&kp LS(N3)		&kp DLLR	    		&kp LS(COMMA)	&kp LS(DOT)		&kp CARET	&trans
-		&kp GRAVE	&kp TILDE 		&kp MINUS   	&kp BSLH	 			&kp LBKT		&kp RBKT	 	&kp PIPE 	&kp SLASH
-		&trans		&trans  		&kp PLUS		&kp EQUAL  				&trans			&trans 			&trans  	&trans
+		&kp GRAVE	&kp TILDE 		&td PLUS MINUS  &kp BSLH	 			&kp LBKT		&kp RBKT	 	&kp PIPE 	&kp SLASH
+		&kp EQUAL	&trans  		&trans			&trans  				&trans			&trans 			&trans  	&trans
 							 						&trans		 			&trans
 		>;
 		};
@@ -172,8 +172,8 @@
 			num {
 		bindings = <
 		&hm LGUI DOT		&hm LALT N7	 	&hm LCTL N8		&hm LSHIFT N9 		&hm LSHIFT F7 	&hm RCTL F8  	&hm RALT F9 &hm RGUI F10
-		&td EQUAL MINUS		&kp N4  		&kp N5			&kp N6				&kp F4  		&kp F5			&kp F6   	&kp F11
-		&kp PLUS  			&kp N1 			&kp N2			&kp N3		 		&kp F1 			&kp F2			&kp F3  	&kp F12
+		&td PLUS MINUS		&kp N4  		&kp N5			&kp N6				&kp F4  		&kp F5			&kp F6   	&kp F11
+		&kp EQUAL  			&kp N1 			&kp N2			&kp N3		 		&kp F1 			&kp F2			&kp F3  	&kp F12
 															&kp N0	 	 		&trans
 		>;
 		};
@@ -182,8 +182,8 @@
 		bindings = <
 		&kp ESC				&trans			&kp LC(LS(TAB))		&kp RC(TAB)				&td LC(V) LC(C) 	&kp RGUI 		&kp BKSP		&trans
 		&td LG(GRAVE) TAB	&td HOME DEL	&td END LG(LBKT) 	&kp LG(RBKT)			&td TAB LEFT  		&kp DOWN 		&kp UP	 		&kp RIGHT 
-		&kp C_PP 			&trans 		 	&trans				&trans	 				&kp C_PREV			&kp C_VOL_DN 	&kp C_VOL_UP	&kp C_NEXT 	   
-									 							&sr LSHIFT AL1	 		&kp RET
+		&trans	 			&trans 		 	&trans				&trans	 				&kp C_PREV			&kp C_VOL_DN 	&kp C_VOL_UP	&kp C_NEXT 	   
+									 							&kp C_PP		 		&kp RET
 		>;
 		};
 
