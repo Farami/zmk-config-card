@@ -171,10 +171,10 @@
 
 			num {
 		bindings = <
-		&trans				&hm LCTL DOT 	&hm LALT N0		&hm LGUI N1 			&hm RGUI N2 	&hm RALT N3	&hm RCTL N4	&trans
-		&kp MINUS			&kp PLUS 		&kp N5			&kp N6					&kp N7			&kp N8		&kp N9   	&kp EQUAL
-		&trans  			&trans 			&trans			&trans		 			&trans 			&trans 		&trans  	&trans 
-															&sr LSHIFT AL1	 	 	&trans
+		&hm LGUI DOT		&hm LALT N7	 	&hm LCTL N8		&hm LSHIFT N9 		&hm LSHIFT F7 	&hm RCTL F8  	&hm RALT F9 &hm RGUI F10
+		&td EQUAL MINUS		&kp N4  		&kp N5			&kp N6				&kp F4  		&kp F5			&kp F6   	&kp F11
+		&kp PLUS  			&kp N1 			&kp N2			&kp N3		 		&kp F1 			&kp F2			&kp F3  	&kp F12
+															&kp N0	 	 		&kp F0
 		>;
 		};
 
