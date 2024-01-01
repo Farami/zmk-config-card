@@ -180,10 +180,10 @@
 
 			sys {
 		bindings = <
-		&trans				&kp ESC			&kp LC(LS(TAB))		&kp RC(TAB)				&td LC(V) LC(C) 	&kp UP 		&kp BKSP 		&trans
-		&td LG(GRAVE) TAB	&td HOME DEL	&td END LG(LBKT) 	&kp LG(RBKT)			&td TAB LEFT  		&kp DOWN 	&kp RIGHT 		&kp RET 
-		&trans 				&trans 		 	&trans				&sr LSHIFT AL1 			&kp RGUI			&trans 		&trans			&trans 	   
-									 							&sr LSHIFT AL1	 		&kp RGUI
+		&kp ESC				&trans			&kp LC(LS(TAB))		&kp RC(TAB)				&td LC(V) LC(C) 	&kp RGUI 		&kp BKSP		&trans
+		&td LG(GRAVE) TAB	&td HOME DEL	&td END LG(LBKT) 	&kp LG(RBKT)			&td TAB LEFT  		&kp DOWN 		&kp UP	 		&kp RIGHT 
+		&kp C_PP 			&trans 		 	&trans				&trans	 				&kp C_PREV			&kp C_VOL_DN 	&kp C_VOL_UP	&kp C_NEXT 	   
+									 							&sr LSHIFT AL1	 		&kp RET
 		>;
 		};
 
