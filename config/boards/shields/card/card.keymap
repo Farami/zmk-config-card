@@ -147,7 +147,7 @@
 		&trans 	 	&trans 			&trans			&kp B	 	 			&kp J    		&trans			&trans 		&trans
 		&trans	 	&trans			&kp V			&kp G 					&kp M 			&kp K			&trans		&trans 
 		&trans	 	&trans 			&trans 			&kp V	 				&kp K			&trans			&trans		&trans
-													&sk LSHIFT	 			&kp ENTER
+													&sk LSHIFT	 			&trans
 		>;
 		};
 		
@@ -155,7 +155,7 @@
 		bindings = <
 		&trans 		&kp RA(N5)  	&kp LS(N3)		&kp DLLR	    		&kp LS(COMMA)	&kp LS(DOT)		&kp CARET	&trans
 		&kp GRAVE	&kp TILDE 		&kp MINUS   	&kp BSLH	 			&kp LBKT		&kp RBKT	 	&kp PIPE 	&kp SLASH
-		&trans		&trans  		&trans			&trans  				&trans			&trans 			&trans  	&trans
+		&trans		&trans  		&kp PLUS		&kp EQUAL  				&trans			&trans 			&trans  	&trans
 							 						&trans		 			&trans
 		>;
 		};
