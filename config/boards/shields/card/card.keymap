@@ -155,7 +155,7 @@
 		bindings = <
 		&trans 		&kp RA(N5)  	&kp LS(N3)		&kp DLLR	    		&kp LS(COMMA)	&kp LS(DOT)		&kp CARET	&trans
 		&kp GRAVE	&kp TILDE 		&td PLUS MINUS  &kp BSLH	 			&kp LBKT		&kp RBKT	 	&kp PIPE 	&kp SLASH
-		&kp EQUAL	&trans  		&trans			&trans  				&trans			&trans 			&trans  	&trans
+		&kp EQUAL	&trans  		&kp UNDER		&trans  				&trans			&trans 			&trans  	&trans
 							 						&trans		 			&trans
 		>;
 		};
